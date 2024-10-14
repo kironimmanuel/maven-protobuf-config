@@ -15,14 +15,12 @@
     </properties>
 
     <dependencies>
-        <!-- Protobuf Java Runtime -->
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
             <version>${proto.version}</version>
         </dependency>
 
-        <!-- Optional: Protobuf Java Utility -->
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java-util</artifactId>
@@ -36,7 +34,7 @@
             <plugin>
                 <groupId>kr.motd.maven</groupId>
                 <artifactId>os-maven-plugin</artifactId>
-                <version>1.7.0</version> <!-- You can update to the latest version if necessary -->
+                <version>1.7.0</version>
             </plugin>
 
             <!-- Protobuf Maven Plugin -->
