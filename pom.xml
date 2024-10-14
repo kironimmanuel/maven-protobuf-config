@@ -30,14 +30,6 @@
 
     <build>
         <plugins>
-            <!-- OS Maven Plugin for detecting the OS -->
-            <plugin>
-                <groupId>kr.motd.maven</groupId>
-                <artifactId>os-maven-plugin</artifactId>
-                <version>1.7.0</version>
-            </plugin>
-
-            <!-- Protobuf Maven Plugin -->
             <plugin>
                 <groupId>org.xolstice.maven.plugins</groupId>
                 <artifactId>protobuf-maven-plugin</artifactId>
@@ -54,6 +46,12 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <!-- OS Maven Plugin for detecting the OS -->
+            <plugin>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.7.0</version>
             </plugin>
         </plugins>
     </build>
